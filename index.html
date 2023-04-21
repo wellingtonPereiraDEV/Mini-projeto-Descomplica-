@@ -103,20 +103,54 @@
 
             <hr>
         </p>
-        <div class="row">
-            <figure class="col text-center">
-                <img src="img/phone strap.jpg" alt="imagem phone strap">
-                <figcaption>Phone Strap</figcaption>
-            </figure>
-            <figure class="col text-center">
-                <img src="img/pulseira de miçanga.jpg" alt="imagem pulseira de miçanga">
-                <figcaption>Pulseira de Miçanga</figcaption>
-            </figure>
-            <figure class="col text-center">
-                <img src="img/Boneco de biscuit.jpg" alt="imagem boneco de biscuit">
-                <figcaption>Boneco de Biscuit</figcaption>
-            </figure>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100 bg-info">
+                    <img src="img/phone strap.jpg" class="card-img-top" alt="...">
+                    <div class="card-body bg-warning">
+                        <h5 class="card-title">Phone Strap</h5>
+                        <h1 class="card-subtitle">R$39,00</h1>
+                        <p class="card-text">Sabemos que você não larga seu celular (a gente também não!), então nada melhor do que deixá-lo ainda mais a sua cara: nosso Phone Strap é colorido, divertido e super útil!</p>
+                    </div>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">5x de R$7,80</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 bg-info">
+                    <img src="img/pulseira de miçanga.jpg" class="card-img-top" alt="...">
+                    <div class="card-body bg-warning">
+                        <h5 class="card-title">Mix de Pulseira com nome Personalizado Coloridas de Miçanga</h5>
+                        <h1 class="card-subtitle">R$63,00 </h1>
+                        <p class="card-text">KIT COMPOSTO POR 15 PULSEIRAS (da sua escolha ou iguais como no anúncio), A PALAVRA PODE TER ATÉ 8 LETRAS, MANDAR O NOME OU PALAVRA POR EMAIL.
+                        </p>
+                    </div>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">5x de R$12,60</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 bg-info">
+                    <img src="img/Boneco de biscuit.jpg" class="card-img-top" alt="...">
+                    <div class="card-body bg-warning">
+                        <h5 class="card-title">Boneco de biscuit do Naruto, estilo Funko Pop</h5>
+                        <h1 class="card-subtitle">R$59,90</h1>
+                        <p class="card-text">Feito totalmente a mão com Porcelana Fria (biscuit).
+                            • Aprox. 10 cm altura.
+                            • A cabeça tem aprox. 3cm de comprimento.</p>
+                    </div>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar</a>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">5x de 11,98</small>
+                    </div>
+                </div>
+            </div>
         </div>
+
 
     </section>
 
@@ -174,5 +208,23 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
 </body>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Suas Compras</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Produto adicionado ao carrinho!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar Comprando</button>
+          <button type="button" class="btn btn-success">Finalizar a compra</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </html>
